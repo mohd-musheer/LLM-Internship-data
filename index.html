@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Text Summarizer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="background-animation"></div>
+
+<div class="container">
+
+    <header>
+        <h1>✨ AI Text Summarizer</h1>
+        <p>Enter your text and get quick summary instantly</p>
+    </header>
+
+    <div class="card">
+
+        <div class="input-section">
+
+            <label>Enter Text</label>
+
+            <textarea 
+                id="inputText"
+                placeholder="Paste your paragraph here..."
+            ></textarea>
+
+            <button id="summarizeBtn">
+                🚀 Generate Summary
+            </button>
+
+        </div>
+
+        <div class="output-section">
+
+            <label>Summary</label>
+
+            <div id="outputBox">
+                <p class="placeholder">
+                    Summary will appear here...
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Local API Endpoint → http://localhost:8000</p>
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
