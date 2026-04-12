@@ -1,6 +1,10 @@
 import requests
 
-url = "https://quickshare.work.gd"
+url = "https://.work.gd"
 
 for i in range(200):
     requests.get(url)
+
+
+
+
