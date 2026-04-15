@@ -13,6 +13,9 @@ name VARCHAR(50),
 marks INTS
 )")
 
+
+
+
 dbExecute(con,
           "INSERT INTO student VALUES
 (1,'Ram',80),
